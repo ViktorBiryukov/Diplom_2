@@ -16,7 +16,8 @@ public class LoginUserTest {
     public void setUp() {
         user = User.getUser();
         userClient = new UserClient();
-        userClient.createUser(user);
+        ValidatableResponse createUser = userClient.createUser(user);
+        accessToken = createUser.extract().body().path("accessToken");
     }
 
     @After
@@ -32,6 +33,7 @@ public class LoginUserTest {
     public void loginWithValidCredTest() {
         ValidatableResponse loginResponse = userClient.loginUser(user).statusCode(200);
         loginResponse.assertThat().body("success", equalTo(true));
+
     }
 
     @Test

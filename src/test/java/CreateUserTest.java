@@ -31,6 +31,7 @@ public class CreateUserTest {
     public void  successCreatingUserTest(){
         ValidatableResponse createResponse = userClient.createUser(user).statusCode(200);
         createResponse.assertThat().body("success", equalTo(true));
+        accessToken = createResponse.extract().body().path("accessToken");
     }
 
     @Test
@@ -41,6 +42,8 @@ public class CreateUserTest {
         ValidatableResponse createIdenticalUserResponse = userClient.createUser(user).statusCode(403);
         createIdenticalUserResponse.assertThat().body("success", equalTo(false));
         createIdenticalUserResponse.assertThat().body("message", equalTo("User already exists"));
+        accessToken = createUserResponse.extract().body().path("accessToken");
+
     }
 
     @Test

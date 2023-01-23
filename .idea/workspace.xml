@@ -5,41 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35797cbc-6e0b-4520-81b8-fc4c666b5d60" name="Changes" comment="Апитесты для дипломной работы 1.1">
-      <change afterPath="$PROJECT_DIR$/target/allure-results/19b34c39-b957-4d7d-a0a1-d11881277b41-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/1cc2261b-777e-4a66-8412-b8e38d3d0ca8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/1f3a89fb-d54d-4156-945d-6fc74be0bab2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/21922d3e-7770-4a51-b626-55232af3000b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/21fddd6b-7e98-497e-be7d-4027cc6d7f6f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/2847e5c8-d598-4a65-9ac0-44a4e1445a23-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/2a8f99dc-126a-45bb-8429-d14167c8abfb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/2b1c598d-c5b4-478e-bd87-a3b6ecaeb79f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/362b1f28-4ebc-4787-b0ec-069fb9edd411-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/4589ffcd-8078-4f1f-9857-521ba7c0deee-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/6e0b0518-c2f4-4154-9227-4b4bbf2c5e8d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/7b0611ee-89f4-4f06-89c6-53b1c9d4b142-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/8ddb4932-995c-4715-a028-7407fa8d1151-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/8de3c332-62e1-4f72-9f79-439406a8dcf2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/97734e07-c91d-400c-9c27-57b920dd69e7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/98812115-8408-447c-945a-e05a75573c17-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/baf2b29e-96e2-48f3-a05c-44cb836293c8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/c069259a-8848-42b9-ac0e-e4142e503e8f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/cc47a387-9f6e-4053-87ab-f8ae8688313e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/d6a099a7-ce7d-48b0-900d-f914c2ba0540-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/d815dcae-f643-405d-87a3-c5a2db34d49c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/f1f69a78-ba0a-418e-9089-35cbab82f67f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/fac2ff28-6c1d-42b6-a970-2ee2c4abbc6a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/fc6071f6-b183-4bd9-a3cd-66eb36eec150-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-01-22T13-04-35_803.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/CreateOrderTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/CreateUserTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/GetOrderTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/LoginUserTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CreateOrderTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CreateUserTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-GetOrderTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginUserTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-UpdateUserTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/UpdateUserTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,12 +58,23 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetOrderTest.getOrdersWithAuthTest">
-    <configuration name="GetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginUserTest">
+    <configuration name="CreateUserTest.creatingIdenticalUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetOrderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserTest" />
+      <option name="METHOD_NAME" value="creatingIdenticalUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest.successCreatingUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserTest" />
+      <option name="METHOD_NAME" value="successCreatingUserTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,22 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UpdateUserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginUserTest" />
+        <item itemvalue="JUnit.CreateUserTest.successCreatingUserTest" />
+        <item itemvalue="JUnit.CreateUserTest.creatingIdenticalUserTest" />
         <item itemvalue="JUnit.GetOrderTest.getOrdersWithAuthTest" />
         <item itemvalue="JUnit.GetOrderTest.getOrdersWithoutAuthTest" />
-        <item itemvalue="JUnit.UpdateUserTest" />
-        <item itemvalue="JUnit.LoginUserTest" />
-        <item itemvalue="JUnit.GetOrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674381938256</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Апитесты для дипломной работы 1.1">
+      <created>1674382266828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674382266828</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
